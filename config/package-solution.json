@@ -3,7 +3,7 @@
   "solution": {
     "name": "landing-page-client-side-solution",
     "id": "a8946d45-63fd-4949-8cf5-cdc8efc221b6",
-    "version": "1.0.0.2",
+    "version": "1.0.0.3",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

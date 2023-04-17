@@ -3421,7 +3421,7 @@ var MonthSection = function (props) {
     return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null,
         react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "rowMain" },
             react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "row2" },
-                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h3", null, "Birthdays")),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", null, "Birthdays")),
             react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"], null,
                 props.data.users.length === 0 && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: "birthday" },
                     react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_fluentui_react_lib_Persona__WEBPACK_IMPORTED_MODULE_1__["Persona"], { primaryText: "Next birthday will", secondaryText: "be celebrated soon!", size: _fluentui_react_lib_Persona__WEBPACK_IMPORTED_MODULE_1__["PersonaSize"].size56, styles: {
@@ -7615,7 +7615,7 @@ var News = function (props) {
     var _a;
     return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'rowMain' },
         react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'row2' },
-            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h3", null, "News")),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", null, "News")),
         react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'row3' }, (_a = props.data) === null || _a === void 0 ? void 0 : _a.map(function (x) {
             return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, x.Title));
         }))));
@@ -13465,14 +13465,14 @@ __webpack_require__.r(__webpack_exports__);
 /* tslint:disable */
 __webpack_require__(/*! ./LandingPageRow1.module.css */ "JugH");
 var styles = {
-    Containers: 'Containers_226f248e',
-    rowMain: 'rowMain_226f248e',
-    row1: 'row1_226f248e',
-    marquee: 'marquee_226f248e',
-    row2: 'row2_226f248e',
-    row3: 'row3_226f248e',
-    'carousel-item': 'carousel-item_226f248e',
-    active: 'active_226f248e'
+    Containers: 'Containers_7a28032b',
+    rowMain: 'rowMain_7a28032b',
+    row1: 'row1_7a28032b',
+    marquee: 'marquee_7a28032b',
+    row2: 'row2_7a28032b',
+    row3: 'row3_7a28032b',
+    'carousel-item': 'carousel-item_7a28032b',
+    active: 'active_7a28032b'
 };
 /* harmony default export */ __webpack_exports__["default"] = (styles);
 /* tslint:enable */ 
@@ -14153,7 +14153,7 @@ function hoistStatics(source, dest) {
 
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/@microsoft/spfx-heft-plugins/node_modules/css-loader/dist/runtime/api.js */ "Z+AG")(false);
 // Module
-exports.push([module.i, "*{margin:0;padding:0;box-sizing:border-box}.Containers_226f248e{min-width:100%!important;height:200px;background-color:green;color:#fff;font-size:12px;display:grid;grid-template-columns:auto auto auto;text-align:center}.rowMain_226f248e{border-right:2px solid #fff}span{color:transparent;opacity:1}.row1_226f248e{animation:marquee_226f248e 10s linear infinite;margin-top:140px!important}.row2_226f248e{z-index:-1;background-color:#000}.row3_226f248e{animation:marquee_226f248e 10s linear infinite;margin-top:220px!important}@keyframes marquee_226f248e{0%{transform:translateY(0)}to{transform:translateY(-100%)}}.carousel-item_226f248e:not(.active_226f248e){display:none}", ""]);
+exports.push([module.i, "*{margin:0;padding:0;box-sizing:border-box}.Containers_7a28032b{min-width:100%!important;height:200px;background-color:green;color:#fff;font-size:12px;display:grid;grid-template-columns:auto auto auto;text-align:center}.rowMain_7a28032b{border-right:2px solid #fff}.row1_7a28032b{animation:marquee_7a28032b 10s linear infinite;margin-top:140px!important}.row2_7a28032b{z-index:-1;background-color:#000}.row3_7a28032b{animation:marquee_7a28032b 10s linear infinite;margin-top:220px!important}@keyframes marquee_7a28032b{0%{transform:translateY(0)}to{transform:translateY(-100%)}}.carousel-item_7a28032b:not(.active_7a28032b){display:none}", ""]);
 
 
 /***/ }),
@@ -24007,7 +24007,7 @@ __webpack_require__.r(__webpack_exports__);
 function Telemetry() {
     return (instance) => {
         instance.on.pre(async function (url, init, result) {
-            let clientTag = "PnPCoreJS:3.12.1:";
+            let clientTag = "PnPCoreJS:3.13.0:";
             // make our best guess based on url to the method called
             const { pathname } = new URL(url);
             // remove anything before the _api as that is potentially PII and we don't care, just want to get the called path to the REST API
@@ -25091,7 +25091,7 @@ var Announcements = function (props) {
     var _a;
     return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'rowMain' },
         react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'row2' },
-            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h3", null, "Announcements")),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", null, "Announcements")),
         react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: 'row1' }, (_a = props.data) === null || _a === void 0 ? void 0 : _a.map(function (x) {
             return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null,
                 x.Title,
@@ -32067,7 +32067,7 @@ function _onKeyDown(ev) {
 
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/@microsoft/spfx-heft-plugins/node_modules/css-loader/dist/runtime/api.js */ "Z+AG")(false);
 // Module
-exports.push([module.i, "*{margin:0;padding:0;box-sizing:border-box}.Containers{min-width:100%!important;padding:2px 10px;height:265px;color:#000;font-size:12px;-ms-flex-pack:center;justify-content:center;display:grid;grid-auto-columns:1fr;grid-auto-flow:column;text-align:center}.birthday{margin-left:5px;-ms-flex-line-pack:center;align-content:center}.rowMain{box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:.3s;width:95%;height:250px;overflow:hidden;background-color:#fff;margin:4px;border:1px solid #fff;border-radius:20px}.row1{animation:marquee 10s linear infinite;margin-top:100px}.row2{background-color:#0078d4;position:relative;z-index:9999;height:25px;top:0;color:#000}.row3{animation:marquee 10s linear infinite;margin-top:100px}@keyframes marquee{0%{transform:translateY(0)}to{transform:translateY(-200%)}}.carousel-item:not(.active){display:none}", ""]);
+exports.push([module.i, "*{margin:0;padding:0;box-sizing:border-box}.Containers{min-width:100%!important;padding:2px 10px;height:265px;color:#000;font-size:12px;-ms-flex-pack:center;justify-content:center;display:grid;grid-auto-columns:1fr;grid-auto-flow:column;text-align:center}.birthday{margin-left:5px;-ms-flex-line-pack:center;align-content:center}.rowMain{box-shadow:9px 10px 8px rgba(0,0,0,.2);transition:.3s;width:95%;height:250px;overflow:hidden;background-color:#f0f8ff;margin:4px;border:1px solid #f0f8ff;border-radius:20px}.row1{animation:marquee 10s linear infinite;margin-top:100px}.row2{background-color:#345978;position:relative;z-index:9999;height:29px;top:0;color:#fff}.row3{animation:marquee 10s linear infinite;margin-top:100px}@keyframes marquee{0%{transform:translateY(0)}to{transform:translateY(-200%)}}.carousel-item:not(.active){display:none}", ""]);
 
 
 /***/ }),

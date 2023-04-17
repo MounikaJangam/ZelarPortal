@@ -38,7 +38,7 @@
     "scriptResources": {
       "master-page-row-2-web-part": {
         "type": "path",
-        "path": "master-page-row-2-web-part_aa9efb954154db40df9e.js"
+        "path": "master-page-row-2-web-part_98c99cd38b77cc8e34ca.js"
       },
       "@microsoft/sp-property-pane": {
         "type": "component",

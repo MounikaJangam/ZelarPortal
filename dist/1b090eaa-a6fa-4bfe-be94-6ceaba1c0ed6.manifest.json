@@ -38,7 +38,7 @@
     "scriptResources": {
       "landing-page-row-1-web-part": {
         "type": "path",
-        "path": "landing-page-row-1-web-part_f2242aa4a562916173ba.js"
+        "path": "landing-page-row-1-web-part_746e309ddae646c361b3.js"
       },
       "@microsoft/sp-property-pane": {
         "type": "component",
