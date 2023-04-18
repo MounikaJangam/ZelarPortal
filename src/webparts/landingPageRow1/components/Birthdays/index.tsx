@@ -1,6 +1,6 @@
 import * as React from "react";
 import "../LandingPage/LandingPageRow1.module.scss";
-import  MonthSection  from "./MonthSection";
+import MonthSection from "./MonthSection";
 import { BirthdaysMonth } from "./models/BirthdayMonths";
 
 
@@ -8,11 +8,11 @@ interface IBirthdaysPerMonthProps {
   data: Array<BirthdaysMonth>;
 }
 
-const Birthday = (props: IBirthdaysPerMonthProps)  => {
- 
+const Birthday = (props: IBirthdaysPerMonthProps) => {
 
-    return(
-   
+
+  return (
+
     <section>
 
       {props.data && props.data?.map((month: any, index: number) => (
@@ -21,6 +21,7 @@ const Birthday = (props: IBirthdaysPerMonthProps)  => {
 
       ))}
     </section>
-    )}
+  )
+}
 
-export  {IBirthdaysPerMonthProps,Birthday};
+export { IBirthdaysPerMonthProps, Birthday };
